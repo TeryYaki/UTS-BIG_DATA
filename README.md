@@ -21,11 +21,16 @@ Proyek ini melakukan ekstraksi data (*web scraping*) ulasan Canva, memproses tek
 * **Hugging Face Transformers**: Model `w11wo/indonesian-roberta-base-sentiment-classifier` untuk klasifikasi sentimen teks bahasa Indonesia.
 * **Matplotlib & tqdm**: Untuk menampilkan visualisasi grafik dan *progress bar*.
 
-## 📊 Ringkasan Hasil Analisis
-Berdasarkan visualisasi data yang dianalisis:
-* **Sentimen Negatif**: 52.0% (Terdapat laporan pengguna mengenai masalah memuat aplikasi, isu jaringan yang terputus, dan kesulitan membatalkan langganan premium).
-* **Sentimen Positif**: 41.0% (Banyak pengguna memuji aplikasi karena sangat membantu dan mudah digunakan untuk pengeditan gambar).
-* **Sentimen Netral**: 7.0%.
+## 📊 Visualisasi & Ringkasan Hasil Analisis
+
+Berikut adalah visualisasi dari hasil analisis sentimen yang telah dilakukan:
+
+![Visualisasi Analisis Sentimen Canva](image.png)
+
+Berdasarkan visualisasi data di atas, dapat ditarik kesimpulan sebagai berikut:
+* **Sentimen Negatif (52.0%)**: Mendominasi ulasan, mayoritas berisi laporan pengguna mengenai masalah *loading* aplikasi, isu jaringan saat akan masuk (*login*), elemen error, dan kesulitan dalam membatalkan langganan Canva Pro/Bisnis.
+* **Sentimen Positif (41.0%)**: Banyak pengguna memuji aplikasi karena sangat praktis, bermanfaat, dan mempermudah pekerjaan desain mereka.
+* **Sentimen Netral (7.0%)**: Ulasan biasa atau pertanyaan seputar fitur tertentu.
 
 ## ⚙️ Cara Menjalankan Proyek
 1. Buka file `UTS_BIG_DATA_TERRY.ipynb` menggunakan **Google Colab** atau **Jupyter Notebook**.
