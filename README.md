@@ -1,2 +1,1 @@
-# UTS-BIG_DATA
-Nama : Terry Djong
+# BIG-DATA ANALISIS MOBILE APP
